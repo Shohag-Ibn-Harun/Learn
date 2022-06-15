@@ -1,0 +1,344 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;  
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	padding: 0;
+	margin: 0;
+}
+.maindiv{
+	margin: 0;
+	width: 1025px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+
+.homediv{
+	width: 100%;
+	height:280px;
+	background: #6c21ff;
+}
+.logodiv{	
+	float: left;
+
+}
+.logo {
+    margin: 60px 60px 0 80px;
+	width: 110px;
+	
+     }
+ ul{
+	padding-left: 70px;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+ul li{
+	float: left;
+	padding: 3px;
+    border-radius: 3px;
+    margin: 60px 0 0 7px;
+
+}
+ul li:hover {
+	background: #8b8b8b;
+	transition: .4s;
+}
+a{
+	text-decoration: none;
+	padding: 13px;
+	color: #fff;
+}
+.activ {
+	background: #8b8b8b;
+}
+.onhb{
+	margin: 60px 0 30px 0;
+	color: gold;
+}
+.btn{
+	width: 120px;
+	margin: auto;
+	background: #75ff52;
+	color: #191919;
+	border-radius: 4px;
+	padding: 9px;
+	margin-top: 95px;
+}
+.temdiv{
+	background: linear-gradient(#00e7ffe0,#00ff0008), url('bgtem.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	width: 100%;
+	height: 440px;
+}
+.temcl{
+	width: 100%;
+	height: 440px;
+}
+.hto{
+	padding: 40px 0 65px 0;
+	color: #fdfdfd;
+	text-shadow: 1px 1px 3px #5f3322;
+}
+
+.grd{
+	width: 75%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+}
+.techer{
+	padding-left: 40px;
+}
+.tcr{
+	width: 180px;
+	height: 200px;
+	border-radius: 50%;
+}
+.tcrnam{
+	color: #efefef;
+	text-shadow: 1px 1px #101010;
+	line-height: 1.4;
+	text-align: center;
+}
+
+
+
+
+.aboutdiv{
+	width: 100%;
+	height: 600px;
+	background: #344fd3;
+    position: relative;
+
+}
+.htoc{
+	color: #ff6a6a;
+	padding: 50px;
+}
+.abtimg{
+	width: 500px;
+	height: 260px;
+	border: 2px dotted #881a22;
+}
+.abtimg:hover{
+	box-shadow: 2px 2px 15px #c02929;
+}
+.hte{
+	margin-top: 14px;
+	color: #7fe089;
+	text-transform: capitalize;
+}
+.hfiv{
+	top: 450px;
+    left: 230px;
+	position: absolute;
+	color: #fff;
+}
+h5{
+ padding: 4px;
+ text-align: left;
+}
+
+
+
+.linkdiv{
+	width: 100%;
+	height: 430px;
+	background: #b957ba
+}
+.linkgrid{
+	display: grid;
+	grid-template-columns: 60% 30%;
+}
+#link a{
+       display: block;
+       text-align: left;
+       margin-left: 80px;
+       width: 240px;
+}
+.zin{
+	margin-top: 30px;
+	width: 400px;
+	height: 300px;
+	position: relative;
+}
+.don{
+	width: 200px;
+	height: 200px;
+	background: white;
+	position: absolute;
+	top: 0;
+	box-shadow: -10px -10px 1px 5px #323232;
+}
+.dto{
+	width: 200px;
+	height: 200px;
+	background: gold;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+}
+.dte{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+.img4{
+	width: 200px;
+	height: 200px;
+}
+
+
+.contect{
+	width: 100%;
+	height: 400px;
+	background: linear-gradient(#52ac00cc,#52ac00cc), url(img6.jpg) no-repeat;
+	background-size: 100%;
+}
+.contect .temcl{
+	height: 400px
+}
+.cnt{
+	width: 50%;
+	margin: auto;
+	height: 300px;
+}
+.cnt b{
+	margin-bottom: 19px;
+	color: #fff;
+}
+.cntlft input{
+	width: 40%;
+	height: 20px;
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	border: 0;
+}
+.cntful input {
+	width:82%;
+	height: 140px;
+	margin-top: 13px;
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	border: 0;
+}
+.send{
+	width: 70px;
+	padding: 5px;
+	margin-top: 18px;
+	background: yellow;
+	border: 0;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.fxd{
+	width: 50px;
+	height: 50px;
+	background: red;
+	opacity: 0.7;
+	font-size: 40px;
+    position: fixed;
+    top: 580px;
+    z-index: 3;
+}
+@media screen and (max-width: 1000px){
+	.maindiv{
+		width: 760px;
+	}
+    .tcr{
+    	width: 150px;
+    	height: 170px;
+    }
+}
+@media screen and (max-width: 760px){
+      .maindiv{
+      	width: 500px;
+      } 
+      .logodiv{
+      	width: 100%;
+
+      }
+      .logo{
+      	width: 110px;
+      	text-align: center;
+      	margin: auto;
+      	padding: 30px 0 0 0;
+      }
+      ul{
+      	width: 99.5%;
+      	margin: auto;
+      	padding-left: 50px;
+      }
+    ul li{
+     	margin-top: 25px;
+     	padding: 2px;
+     } 
+     .hto{
+     	padding: 35px 0 40px 0;
+     }
+     .temdiv{
+     	height: 900px;
+     	background: #00e7ff;
+     }
+     .grd{
+     	width: 60%;    
+     	margin: auto;
+     	grid-template-columns: 60%;
+     }
+     .techer{
+     	width: 100%;
+    }
+    .aboutdiv{
+    	height: 560px;
+    }
+    .htoc{
+    	padding: 30px;
+    }
+    .abtimg{
+    	width: 470px;
+    	height: 240px;
+    }
+    .hfiv{
+    	top: 420px;
+    	left: 10px;
+    }
+    .linkgrid{
+    	grid-template-columns: 50% 14%;
+    }
+    #link a{
+    	margin: 0 3px;
+    }
+    .zin{
+    	width: 200px;
+    	height: auto;
+    	margin-left: 40px;
+    }
+    .don, .dto, .dte, .img4{
+    	width: 165px;
+    	height: 165px;
+    }
+    .contect, .temcl{
+    	height: 340px;
+    }
+      
+}
+
